@@ -23,6 +23,7 @@ Bitnoise packages list
             "type": "vcs",
             "url":  "git@github.com:Bitnoise/BtnBaseBundle.git"
         }
+    ]
 }
 ```
 
