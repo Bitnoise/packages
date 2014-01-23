@@ -29,5 +29,6 @@ Bitnoise packages list
 
 ### Update packages.json
 
+* Install [satis](https://github.com/composer/satis) globaly via `composer global require composer/satis:dev-master`
 * Clone repository
-* Run `update.sh` (https://github.com/composer/satis executable required)
+* Run `update.sh` and the rest will be history :P
