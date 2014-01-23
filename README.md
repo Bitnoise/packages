@@ -30,4 +30,4 @@ Bitnoise packages list
 ### Update packages.json
 
 * Clone repository
-* run `update.sh` (https://github.com/composer/satis executable required)
+* Run `update.sh` (https://github.com/composer/satis executable required)
