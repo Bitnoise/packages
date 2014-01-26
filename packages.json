@@ -676,19 +676,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnMessageBundle.git",
-                    "reference": "0056d9069748833afe487162f5eefb23bf859125"
+                    "reference": "f80b767e37ed3d06ae48a3a7a92649f3878de4ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnMessageBundle/zipball/0056d9069748833afe487162f5eefb23bf859125",
-                    "reference": "0056d9069748833afe487162f5eefb23bf859125",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMessageBundle/zipball/f80b767e37ed3d06ae48a3a7a92649f3878de4ee",
+                    "reference": "f80b767e37ed3d06ae48a3a7a92649f3878de4ee",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-01-21 16:27:21",
+                "time": "2014-01-26 09:54:51",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
