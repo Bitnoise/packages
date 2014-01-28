@@ -565,6 +565,55 @@
                 }
             }
         },
+        "bitnoise/mailer-bundle": {
+            "dev-master": {
+                "name": "bitnoise/mailer-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/MailerBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMailerBundle.git",
+                    "reference": "9fd80d5ba4dc64d4c27f809cad688dbeec02c467"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMailerBundle/zipball/9fd80d5ba4dc64d4c27f809cad688dbeec02c467",
+                    "reference": "9fd80d5ba4dc64d4c27f809cad688dbeec02c467",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23",
+                    "php": ">=5.3.3"
+                },
+                "time": "2014-01-28 17:04:20",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MailerBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMailerBundle",
+                "keywords": [
+                    "bitnoise",
+                    "mailer"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMailerBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnMailerBundle/issues"
+                }
+            }
+        },
         "bitnoise/media-bundle": {
             "dev-master": {
                 "name": "bitnoise/media-bundle",
