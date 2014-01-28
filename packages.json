@@ -63,12 +63,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
-                    "reference": "1c62f28f13afe42c47db38b363cc10c19ac83b5a"
+                    "reference": "a625e2b690631a5bc491bdc52ebe7a64cbacb0e3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/1c62f28f13afe42c47db38b363cc10c19ac83b5a",
-                    "reference": "1c62f28f13afe42c47db38b363cc10c19ac83b5a",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/a625e2b690631a5bc491bdc52ebe7a64cbacb0e3",
+                    "reference": "a625e2b690631a5bc491bdc52ebe7a64cbacb0e3",
                     "shasum": ""
                 },
                 "require": {
@@ -81,7 +81,7 @@
                 "suggest": {
                     "raulfraile/ladybug-bundle": "dev-master"
                 },
-                "time": "2013-12-31 09:08:22",
+                "time": "2014-01-28 08:19:05",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
