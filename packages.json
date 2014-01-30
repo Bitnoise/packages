@@ -882,21 +882,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnPageBundle.git",
-                    "reference": "6c364967273842026299afcbbe835509f3f9a330"
+                    "reference": "4a7c11eee72160a174273de08db6a409bae7b604"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/6c364967273842026299afcbbe835509f3f9a330",
-                    "reference": "6c364967273842026299afcbbe835509f3f9a330",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/4a7c11eee72160a174273de08db6a409bae7b604",
+                    "reference": "4a7c11eee72160a174273de08db6a409bae7b604",
                     "shasum": ""
                 },
                 "require": {
-                    "egeloen/ckeditor-bundle": "2.*",
+                    "egeloen/ckeditor-bundle": "~2.1",
                     "gedmo/doctrine-extensions": "*",
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-01-03 10:29:54",
+                "time": "2014-01-30 22:01:53",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -932,21 +932,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnPageBundle.git",
-                    "reference": "816916b44e11d1b59ca74669b959e2bd17ee5ffc"
+                    "reference": "820e26b429650284156358a7106f8a406af8d44a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/816916b44e11d1b59ca74669b959e2bd17ee5ffc",
-                    "reference": "816916b44e11d1b59ca74669b959e2bd17ee5ffc",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/820e26b429650284156358a7106f8a406af8d44a",
+                    "reference": "820e26b429650284156358a7106f8a406af8d44a",
                     "shasum": ""
                 },
                 "require": {
-                    "egeloen/ckeditor-bundle": "2.*",
+                    "egeloen/ckeditor-bundle": "~2.1",
                     "gedmo/doctrine-extensions": "*",
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-01-03 10:41:39",
+                "time": "2014-01-30 22:02:09",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
