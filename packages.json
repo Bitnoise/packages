@@ -623,12 +623,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
-                    "reference": "c1dd04335ab1e4d0be440c99c0d683a4b7518a49"
+                    "reference": "31bfe9f0bea9a9a53061349af17f6a9001d5cb9b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/c1dd04335ab1e4d0be440c99c0d683a4b7518a49",
-                    "reference": "c1dd04335ab1e4d0be440c99c0d683a4b7518a49",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/31bfe9f0bea9a9a53061349af17f6a9001d5cb9b",
+                    "reference": "31bfe9f0bea9a9a53061349af17f6a9001d5cb9b",
                     "shasum": ""
                 },
                 "require": {
@@ -636,7 +636,7 @@
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2013-12-05 10:05:21",
+                "time": "2014-02-05 12:28:23",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
