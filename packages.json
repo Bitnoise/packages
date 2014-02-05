@@ -774,12 +774,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnNodesBundle.git",
-                    "reference": "aa5d11c40e09cc7c1f231c3cde38709d36287eaf"
+                    "reference": "53336b21b9d4d2a8aa4d69d63f93c777865c5f20"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/aa5d11c40e09cc7c1f231c3cde38709d36287eaf",
-                    "reference": "aa5d11c40e09cc7c1f231c3cde38709d36287eaf",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/53336b21b9d4d2a8aa4d69d63f93c777865c5f20",
+                    "reference": "53336b21b9d4d2a8aa4d69d63f93c777865c5f20",
                     "shasum": ""
                 },
                 "require": {
@@ -791,7 +791,7 @@
                     "symfony-cmf/routing-bundle": "*",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2013-12-31 09:27:12",
+                "time": "2014-02-05 11:03:56",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -827,12 +827,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnNodesBundle.git",
-                    "reference": "1547f9702f5830688207f8eb2e961352d658cade"
+                    "reference": "6d132c5aa0b3d9b9374f70299926602f395f133e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/1547f9702f5830688207f8eb2e961352d658cade",
-                    "reference": "1547f9702f5830688207f8eb2e961352d658cade",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/6d132c5aa0b3d9b9374f70299926602f395f133e",
+                    "reference": "6d132c5aa0b3d9b9374f70299926602f395f133e",
                     "shasum": ""
                 },
                 "require": {
@@ -844,7 +844,7 @@
                     "symfony-cmf/routing-bundle": "*",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-01-03 11:39:20",
+                "time": "2014-02-05 11:10:12",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
