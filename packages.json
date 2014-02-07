@@ -827,12 +827,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnNodesBundle.git",
-                    "reference": "6d132c5aa0b3d9b9374f70299926602f395f133e"
+                    "reference": "56681d915681906e32a053dbe98f8f8d2248edd8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/6d132c5aa0b3d9b9374f70299926602f395f133e",
-                    "reference": "6d132c5aa0b3d9b9374f70299926602f395f133e",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/56681d915681906e32a053dbe98f8f8d2248edd8",
+                    "reference": "56681d915681906e32a053dbe98f8f8d2248edd8",
                     "shasum": ""
                 },
                 "require": {
@@ -844,7 +844,7 @@
                     "symfony-cmf/routing-bundle": "*",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-02-05 11:10:12",
+                "time": "2014-02-07 17:11:34",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
