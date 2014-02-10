@@ -320,19 +320,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnCrudBundle.git",
-                    "reference": "644a829faf4b1887d9457f67710d71479a793fc7"
+                    "reference": "c591e59bb7362ebff237d8368ac59732b74f5618"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/644a829faf4b1887d9457f67710d71479a793fc7",
-                    "reference": "644a829faf4b1887d9457f67710d71479a793fc7",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/c591e59bb7362ebff237d8368ac59732b74f5618",
+                    "reference": "c591e59bb7362ebff237d8368ac59732b74f5618",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-01-02 15:52:13",
+                "time": "2014-02-10 13:35:17",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
