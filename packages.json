@@ -320,19 +320,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnCrudBundle.git",
-                    "reference": "c591e59bb7362ebff237d8368ac59732b74f5618"
+                    "reference": "c82eaaede0788448ea4a09bb39769b7c84bd1711"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/c591e59bb7362ebff237d8368ac59732b74f5618",
-                    "reference": "c591e59bb7362ebff237d8368ac59732b74f5618",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/c82eaaede0788448ea4a09bb39769b7c84bd1711",
+                    "reference": "c82eaaede0788448ea4a09bb39769b7c84bd1711",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-02-10 13:35:17",
+                "time": "2014-02-11 12:53:17",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -421,12 +421,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnErrbitBundle.git",
-                    "reference": "a8162eb0a7f4ad20dd9cb2ba3029be9593e75b31"
+                    "reference": "e5dce489e1f3076a6b9bf67a8a3e1f611904df9f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnErrbitBundle/zipball/a8162eb0a7f4ad20dd9cb2ba3029be9593e75b31",
-                    "reference": "a8162eb0a7f4ad20dd9cb2ba3029be9593e75b31",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnErrbitBundle/zipball/e5dce489e1f3076a6b9bf67a8a3e1f611904df9f",
+                    "reference": "e5dce489e1f3076a6b9bf67a8a3e1f611904df9f",
                     "shasum": ""
                 },
                 "require": {
@@ -434,7 +434,7 @@
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2013-12-11 13:40:50",
+                "time": "2014-02-17 08:47:55",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -725,19 +725,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnMessageBundle.git",
-                    "reference": "f80b767e37ed3d06ae48a3a7a92649f3878de4ee"
+                    "reference": "ead524aa48342b599337a34cf620a4cc90965004"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnMessageBundle/zipball/f80b767e37ed3d06ae48a3a7a92649f3878de4ee",
-                    "reference": "f80b767e37ed3d06ae48a3a7a92649f3878de4ee",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMessageBundle/zipball/ead524aa48342b599337a34cf620a4cc90965004",
+                    "reference": "ead524aa48342b599337a34cf620a4cc90965004",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-01-26 09:54:51",
+                "time": "2014-02-15 15:13:10",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
