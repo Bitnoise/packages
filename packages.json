@@ -712,6 +712,55 @@
                     "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/dev-sf23-bs3",
                     "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
                 }
+            },
+            "dev-sf23-bs3": {
+                "name": "bitnoise/media-bundle",
+                "version": "dev-sf23-bs3",
+                "version_normalized": "dev-sf23-bs3",
+                "target-dir": "Btn/MediaBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
+                    "reference": "0ad62cf1cb7613005691b42bc0ff4f1be0028322"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/0ad62cf1cb7613005691b42bc0ff4f1be0028322",
+                    "reference": "0ad62cf1cb7613005691b42bc0ff4f1be0028322",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-02-27 10:44:22",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MediaBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMediaBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/dev-sf23-bs3",
+                    "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
+                }
             }
         },
         "bitnoise/menu-bundle": {
