@@ -876,24 +876,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnNodesBundle.git",
-                    "reference": "56681d915681906e32a053dbe98f8f8d2248edd8"
+                    "reference": "ab7c9c918505dc46f48cffe87bd07b4b6646975b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/56681d915681906e32a053dbe98f8f8d2248edd8",
-                    "reference": "56681d915681906e32a053dbe98f8f8d2248edd8",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/ab7c9c918505dc46f48cffe87bd07b4b6646975b",
+                    "reference": "ab7c9c918505dc46f48cffe87bd07b4b6646975b",
                     "shasum": ""
                 },
                 "require": {
                     "bitnoise/base-bundle": "dev-sf23",
-                    "bitnoise/media-bundle": "dev-master",
+                    "bitnoise/media-bundle": "dev-sf23-bs3",
                     "gedmo/doctrine-extensions": "*",
                     "knplabs/knp-menu-bundle": "dev-master",
                     "php": ">=5.3.3",
                     "symfony-cmf/routing-bundle": "*",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-02-07 17:11:34",
+                "time": "2014-02-27 11:06:28",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
