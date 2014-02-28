@@ -320,19 +320,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnCrudBundle.git",
-                    "reference": "c3fa3753dc083a3922749058e75bd0772046f0b1"
+                    "reference": "7cd1154f94a71111f79a99bff537ada9a05b14b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/c3fa3753dc083a3922749058e75bd0772046f0b1",
-                    "reference": "c3fa3753dc083a3922749058e75bd0772046f0b1",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/7cd1154f94a71111f79a99bff537ada9a05b14b7",
+                    "reference": "7cd1154f94a71111f79a99bff537ada9a05b14b7",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-02-26 09:22:56",
+                "time": "2014-02-27 11:15:36",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -672,12 +672,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
-                    "reference": "0ad62cf1cb7613005691b42bc0ff4f1be0028322"
+                    "reference": "2d819bb895d5387d4f5806e127c93891f0e3411c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/0ad62cf1cb7613005691b42bc0ff4f1be0028322",
-                    "reference": "0ad62cf1cb7613005691b42bc0ff4f1be0028322",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/2d819bb895d5387d4f5806e127c93891f0e3411c",
+                    "reference": "2d819bb895d5387d4f5806e127c93891f0e3411c",
                     "shasum": ""
                 },
                 "require": {
@@ -685,7 +685,7 @@
                     "php": ">=5.3.3",
                     "symfony/symfony": "2.*"
                 },
-                "time": "2014-02-27 10:44:22",
+                "time": "2014-02-28 09:27:12",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -709,7 +709,7 @@
                     "media"
                 ],
                 "support": {
-                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/dev-sf23-bs3",
+                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/sf23-bs3",
                     "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
                 }
             }
