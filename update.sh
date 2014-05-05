@@ -1,7 +1,7 @@
 #!/bin/sh
 
 git pull
-satis build
+satis/bin/satis build
 git add .
 git commit -m "update"
 git push
