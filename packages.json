@@ -63,12 +63,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
-                    "reference": "b4561265a6a354c7ed75cee16f68bebd7a54f703"
+                    "reference": "ede5f322209a920b543bb61c355cfc3f644b7666"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/b4561265a6a354c7ed75cee16f68bebd7a54f703",
-                    "reference": "b4561265a6a354c7ed75cee16f68bebd7a54f703",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/ede5f322209a920b543bb61c355cfc3f644b7666",
+                    "reference": "ede5f322209a920b543bb61c355cfc3f644b7666",
                     "shasum": ""
                 },
                 "require": {
@@ -81,7 +81,7 @@
                 "suggest": {
                     "raulfraile/ladybug-bundle": "dev-master"
                 },
-                "time": "2014-04-30 14:53:48",
+                "time": "2014-05-09 13:49:49",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -117,12 +117,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
-                    "reference": "23f370f76e8ab06c4fa0fa04c70231a04e066ebe"
+                    "reference": "4bf2867d6b61b0e25262a53b63dc6ae17d6bd9e8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/23f370f76e8ab06c4fa0fa04c70231a04e066ebe",
-                    "reference": "23f370f76e8ab06c4fa0fa04c70231a04e066ebe",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/4bf2867d6b61b0e25262a53b63dc6ae17d6bd9e8",
+                    "reference": "4bf2867d6b61b0e25262a53b63dc6ae17d6bd9e8",
                     "shasum": ""
                 },
                 "require": {
@@ -135,7 +135,7 @@
                 "suggest": {
                     "raulfraile/ladybug-bundle": "dev-master"
                 },
-                "time": "2014-04-10 14:51:33",
+                "time": "2014-05-09 13:50:18",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
