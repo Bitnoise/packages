@@ -865,6 +865,57 @@
                 }
             }
         },
+        "bitnoise/newsletter-bundle": {
+            "dev-master": {
+                "name": "bitnoise/newsletter-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/BtnNewsletterBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNewsletterBundle.git",
+                    "reference": "aa47aca54fc1908adb92e326b678ebf131d1c1dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNewsletterBundle/zipball/aa47aca54fc1908adb92e326b678ebf131d1c1dc",
+                    "reference": "aa47aca54fc1908adb92e326b678ebf131d1c1dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": ">=2.2.3,<2.4-dev",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-05-13 12:29:46",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\BtnNewsletterBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "Simple newsletter for symfony 2.3",
+                "homepage": "https://github.com/Bitnoise/BtnNewsletterBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNewsletterBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnNewsletterBundle/issues"
+                }
+            }
+        },
         "bitnoise/nodes-bundle": {
             "dev-master": {
                 "name": "bitnoise/nodes-bundle",
