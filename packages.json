@@ -814,6 +814,57 @@
                 }
             }
         },
+        "bitnoise/news-bundle": {
+            "dev-master": {
+                "name": "bitnoise/news-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/NewsBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNewsBundle.git",
+                    "reference": "34170cbac83ab10d3465c0fc4758da24db06e755"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNewsBundle/zipball/34170cbac83ab10d3465c0fc4758da24db06e755",
+                    "reference": "34170cbac83ab10d3465c0fc4758da24db06e755",
+                    "shasum": ""
+                },
+                "require": {
+                    "gedmo/doctrine-extensions": "*",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-08-08 11:51:28",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\NewsBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnNewsBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "news"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNewsBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnNewsBundle/issues"
+                }
+            }
+        },
         "bitnoise/nodes-bundle": {
             "dev-master": {
                 "name": "bitnoise/nodes-bundle",
