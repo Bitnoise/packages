@@ -67,6 +67,10 @@
         {
             "type": "vcs",
             "url":  "git@github.com:Bitnoise/BtnNewsBundle.git"
+        },
+        {
+        "type": "vcs",
+        "url":  "https://github.com/Bitnoise/BtnNewsletterBundle.git"
         }
     ],
     "require-all": true,
