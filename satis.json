@@ -70,11 +70,11 @@
         },
         {
             "type": "vcs",
-            "url":  "https://github.com/Bitnoise/BtnNewsletterBundle.git"
+            "url":  "git@github.com:Bitnoise/BtnNewsletterBundle.git"
         },
         {
             "type": "vcs",
-            "url":  "https://github.com/Bitnoise/BtnEventBundle.git"
+            "url":  "git@github.com:Bitnoise/BtnEventBundle.git"
         },
         {
             "type": "vcs",
