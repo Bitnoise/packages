@@ -79,6 +79,10 @@
         {
             "type": "vcs",
             "url":  "git@github.com:Bitnoise/BtnAdminBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Bitnoise/BtnWebplatformBundle.git"
         }
     ],
     "require-all": true,
