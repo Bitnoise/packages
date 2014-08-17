@@ -26,6 +26,10 @@
         },
         {
             "type": "vcs",
+            "url":  "git@github.com:Bitnoise/BtnNodeBundle.git"
+        },
+        {
+            "type": "vcs",
             "url":  "git@github.com:Bitnoise/BtnPageBundle.git"
         },
         {
