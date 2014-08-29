@@ -1,0 +1,1980 @@
+{
+    "packages": {
+        "bitnoise/admin-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/admin-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnAdminBundle.git",
+                    "reference": "ae94b1582f2294d875c4c94b0968bc908a77ca23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/ae94b1582f2294d875c4c94b0968bc908a77ca23",
+                    "reference": "ae94b1582f2294d875c4c94b0968bc908a77ca23",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "2.0.*",
+                    "doctrine/orm": "~2.2,>=2.2.3",
+                    "egeloen/ckeditor-bundle": "~2.4.0",
+                    "friendsofsymfony/user-bundle": "2.0.*@dev",
+                    "knplabs/knp-menu-bundle": "~2.0.0",
+                    "knplabs/knp-paginator-bundle": "~2.4.0",
+                    "stof/doctrine-extensions-bundle": "~1.1.0"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.1",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "~2.0.0"
+                },
+                "time": "2014-08-29 21:18:26",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\AdminBundle\\": "src/Btn/AdminBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnAdminBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnAdminBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnAdminBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnAdminBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/admin-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/AdminBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnAdminBundle.git",
+                    "reference": "52206a14fc646c1ffeed587ae13ea86c0a211e53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/52206a14fc646c1ffeed587ae13ea86c0a211e53",
+                    "reference": "52206a14fc646c1ffeed587ae13ea86c0a211e53",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "~2.0.0",
+                    "doctrine/orm": "~2.2,>=2.2.3",
+                    "friendsofsymfony/user-bundle": "2.0.*@dev",
+                    "knplabs/knp-menu-bundle": "~2.0.0",
+                    "knplabs/knp-paginator-bundle": "~2.4.0"
+                },
+                "time": "2014-08-24 19:08:50",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\AdminBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnAdminBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnAdminBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnAdminBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnAdminBundle/issues"
+                }
+            }
+        },
+        "bitnoise/base-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/base-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
+                    "reference": "91f6038bfec7519f78c4f4a3bf1c2f169a5d0944"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/91f6038bfec7519f78c4f4a3bf1c2f169a5d0944",
+                    "reference": "91f6038bfec7519f78c4f4a3bf1c2f169a5d0944",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.3.*"
+                },
+                "suggest": {
+                    "raulfraile/ladybug-bundle": "~1.0.0"
+                },
+                "time": "2014-08-29 20:32:18",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\BaseBundle\\": "src/Btn/BaseBundle"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnBaseBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnBaseBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnBaseBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnBaseBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/base-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/BaseBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
+                    "reference": "ee4d436e2ce3d757bd51bdd85e1624dcd9c58faa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/ee4d436e2ce3d757bd51bdd85e1624dcd9c58faa",
+                    "reference": "ee4d436e2ce3d757bd51bdd85e1624dcd9c58faa",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": ">=2.2.3,<2.4-dev",
+                    "jms/serializer-bundle": "*",
+                    "knplabs/knp-paginator-bundle": ">=2.3",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "suggest": {
+                    "raulfraile/ladybug-bundle": "dev-master"
+                },
+                "time": "2014-07-26 09:28:08",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\BaseBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnBaseBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnBaseBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnBaseBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnBaseBundle/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "bitnoise/base-bundle",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "target-dir": "Btn/BaseBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
+                    "reference": "256521d0a82f18e62865bd55fc08792d88245222"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/256521d0a82f18e62865bd55fc08792d88245222",
+                    "reference": "256521d0a82f18e62865bd55fc08792d88245222",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.3.*"
+                },
+                "suggest": {
+                    "raulfraile/ladybug-bundle": "dev-master"
+                },
+                "time": "2014-08-06 08:17:01",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\BaseBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnBaseBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnBaseBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnBaseBundle/tree/dev",
+                    "issues": "https://github.com/Bitnoise/BtnBaseBundle/issues"
+                }
+            },
+            "dev-sf23": {
+                "name": "bitnoise/base-bundle",
+                "version": "dev-sf23",
+                "version_normalized": "dev-sf23",
+                "target-dir": "Btn/BaseBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
+                    "reference": "ce21158d9d18f218366f02a2e63cfaa23343bf37"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/ce21158d9d18f218366f02a2e63cfaa23343bf37",
+                    "reference": "ce21158d9d18f218366f02a2e63cfaa23343bf37",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": ">=2.2.3,<2.4-dev",
+                    "jms/serializer-bundle": "*",
+                    "knplabs/knp-paginator-bundle": ">=2.3",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "suggest": {
+                    "raulfraile/ladybug-bundle": "dev-master"
+                },
+                "time": "2014-07-26 09:28:25",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\BaseBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnBaseBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnBaseBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnBaseBundle/tree/sf23",
+                    "issues": "https://github.com/Bitnoise/BtnBaseBundle/issues"
+                }
+            },
+            "dev-sf23-bs3": {
+                "name": "bitnoise/base-bundle",
+                "version": "dev-sf23-bs3",
+                "version_normalized": "dev-sf23-bs3",
+                "target-dir": "Btn/BaseBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
+                    "reference": "006c3546a78887965b923b42623aa035155e8667"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/006c3546a78887965b923b42623aa035155e8667",
+                    "reference": "006c3546a78887965b923b42623aa035155e8667",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": ">=2.2.3,<2.4-dev",
+                    "jms/serializer-bundle": "*",
+                    "knplabs/knp-paginator-bundle": ">=2.3",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "suggest": {
+                    "raulfraile/ladybug-bundle": "dev-master"
+                },
+                "time": "2014-07-26 09:28:34",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\BaseBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnBaseBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnBaseBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnBaseBundle/tree/sf23-bs3",
+                    "issues": "https://github.com/Bitnoise/BtnBaseBundle/issues"
+                }
+            }
+        },
+        "bitnoise/breadcrumb-bundle": {
+            "dev-master": {
+                "name": "bitnoise/breadcrumb-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/BreadcrumbBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnBreadcrumbBundle.git",
+                    "reference": "39edce3e9d63106c425bf226732e89185cc47cbb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBreadcrumbBundle/zipball/39edce3e9d63106c425bf226732e89185cc47cbb",
+                    "reference": "39edce3e9d63106c425bf226732e89185cc47cbb",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": ">=2.2.3,<2.4-dev",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-05-16 12:52:16",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\BreadcrumbBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "Simple breadcrumb for symfony 2.3",
+                "homepage": "https://github.com/Bitnoise/BtnBreadcrumbBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnBreadcrumbBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnBreadcrumbBundle/issues"
+                }
+            }
+        },
+        "bitnoise/component-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/component-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnComponentBundle.git",
+                    "reference": "d63f9d695495af22ddac2ddd6e127879c5998e97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnComponentBundle/zipball/d63f9d695495af22ddac2ddd6e127879c5998e97",
+                    "reference": "d63f9d695495af22ddac2ddd6e127879c5998e97",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.0.*"
+                },
+                "time": "2014-08-28 10:15:11",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\ComponentBundle\\": "src/Btn/ComponentBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnComponentBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnComponentBundle",
+                "keywords": [
+                    "bitnoise"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnComponentBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnComponentBundle/issues"
+                }
+            }
+        },
+        "bitnoise/crud-bundle": {
+            "dev-master": {
+                "name": "bitnoise/crud-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/CrudBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnCrudBundle.git",
+                    "reference": "42a1fb6386059c77fc9241a37bb615cc0bb2e2a0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/42a1fb6386059c77fc9241a37bb615cc0bb2e2a0",
+                    "reference": "42a1fb6386059c77fc9241a37bb615cc0bb2e2a0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-04-07 09:03:26",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\CrudBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnCrudBundle",
+                "keywords": [
+                    "bitnoise",
+                    "crud",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnCrudBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnCrudBundle/issues"
+                }
+            },
+            "dev-sf23": {
+                "name": "bitnoise/crud-bundle",
+                "version": "dev-sf23",
+                "version_normalized": "dev-sf23",
+                "target-dir": "Btn/CrudBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnCrudBundle.git",
+                    "reference": "666c2feba24cce14dadd636be6bcc7df0aafd8cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/666c2feba24cce14dadd636be6bcc7df0aafd8cd",
+                    "reference": "666c2feba24cce14dadd636be6bcc7df0aafd8cd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-04-07 09:04:14",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\CrudBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnCrudBundle",
+                "keywords": [
+                    "bitnoise",
+                    "crud",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnCrudBundle/tree/sf23",
+                    "issues": "https://github.com/Bitnoise/BtnCrudBundle/issues"
+                }
+            },
+            "dev-sf23-bs3": {
+                "name": "bitnoise/crud-bundle",
+                "version": "dev-sf23-bs3",
+                "version_normalized": "dev-sf23-bs3",
+                "target-dir": "Btn/CrudBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnCrudBundle.git",
+                    "reference": "53d273ed4b2a305ebd85cd06c7ad426d829858e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnCrudBundle/zipball/53d273ed4b2a305ebd85cd06c7ad426d829858e7",
+                    "reference": "53d273ed4b2a305ebd85cd06c7ad426d829858e7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-05 13:38:11",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\CrudBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnCrudBundle",
+                "keywords": [
+                    "bitnoise",
+                    "crud",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnCrudBundle/tree/sf23-bs3",
+                    "issues": "https://github.com/Bitnoise/BtnCrudBundle/issues"
+                }
+            }
+        },
+        "bitnoise/deal-bundle": {
+            "dev-master": {
+                "name": "bitnoise/deal-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/DealBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnDealBundle.git",
+                    "reference": "31e48c9906c377ff94afa81a3a070c9f24712fb1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnDealBundle/zipball/31e48c9906c377ff94afa81a3a070c9f24712fb1",
+                    "reference": "31e48c9906c377ff94afa81a3a070c9f24712fb1",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23",
+                    "php": ">=5.3.3",
+                    "slam/tcpdf": "~6.0.0",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-01-10 12:13:41",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\DealBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnDealBundle",
+                "keywords": [
+                    "bitnoise",
+                    "deal"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnDealBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnDealBundle/issues"
+                }
+            }
+        },
+        "bitnoise/errbit-php-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/errbit-php-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "target-dir": "Btn/ErrbitBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnErrbitBundle.git",
+                    "reference": "ce9b8e81d959ff1d49ee1996d6d7f7303d46771b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnErrbitBundle/zipball/ce9b8e81d959ff1d49ee1996d6d7f7303d46771b",
+                    "reference": "ce9b8e81d959ff1d49ee1996d6d7f7303d46771b",
+                    "shasum": ""
+                },
+                "require": {
+                    "emgiezet/errbit-php": "*",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-13 17:20:15",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\ErrbitBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise | Lukasz Roth",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "errbit-php symfony2 bundle",
+                "homepage": "https://github.com/bitnoise/BtnErrbitBundle",
+                "keywords": [
+                    "bitnoise",
+                    "bug",
+                    "errbit"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnErrbitBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnErrbitBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/errbit-php-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/ErrbitBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnErrbitBundle.git",
+                    "reference": "e5dce489e1f3076a6b9bf67a8a3e1f611904df9f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnErrbitBundle/zipball/e5dce489e1f3076a6b9bf67a8a3e1f611904df9f",
+                    "reference": "e5dce489e1f3076a6b9bf67a8a3e1f611904df9f",
+                    "shasum": ""
+                },
+                "require": {
+                    "emgiezet/errbit-php": "*",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-02-17 08:47:55",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\ErrbitBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise | Lukasz Roth",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "errbit-php symfony2 bundle",
+                "homepage": "https://github.com/bitnoise/BtnErrbitBundle",
+                "keywords": [
+                    "bitnoise",
+                    "bug",
+                    "errbit"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnErrbitBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnErrbitBundle/issues"
+                }
+            }
+        },
+        "bitnoise/event-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/event-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnEventBundle.git",
+                    "reference": "3ae2df2309c6f25ce326455b49ebde921e2e8eda"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnEventBundle/zipball/3ae2df2309c6f25ce326455b49ebde921e2e8eda",
+                    "reference": "3ae2df2309c6f25ce326455b49ebde921e2e8eda",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.0.*"
+                },
+                "time": "2014-08-29 10:06:33",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\EventBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "Simple event for symfony 2.3",
+                "homepage": "https://github.com/Bitnoise/BtnEventBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnEventBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnEventBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/event-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/EventBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnEventBundle.git",
+                    "reference": "c1ae230dd419ea70cbcd9c1b27065c69e7b87d8a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnEventBundle/zipball/c1ae230dd419ea70cbcd9c1b27065c69e7b87d8a",
+                    "reference": "c1ae230dd419ea70cbcd9c1b27065c69e7b87d8a",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": ">=2.2.3,<2.4-dev",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-11 13:33:17",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\EventBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "Simple event for symfony 2.3",
+                "homepage": "https://github.com/Bitnoise/BtnEventBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnEventBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnEventBundle/issues"
+                }
+            }
+        },
+        "bitnoise/faq-bundle": {
+            "dev-master": {
+                "name": "bitnoise/faq-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/FaqBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnFaqBundle.git",
+                    "reference": "21d58d9977149bac7f712129343dcf5cfe6647da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnFaqBundle/zipball/21d58d9977149bac7f712129343dcf5cfe6647da",
+                    "reference": "21d58d9977149bac7f712129343dcf5cfe6647da",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-21 12:43:11",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\FaqBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnFaqBundle",
+                "keywords": [
+                    "bitnoise",
+                    "faq"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnFaqBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnFaqBundle/issues"
+                }
+            }
+        },
+        "bitnoise/freshmail-bundle": {
+            "dev-master": {
+                "name": "bitnoise/freshmail-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/FreshMailBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnFreshMailBundle.git",
+                    "reference": "b1ec6f863e2c52cc299680c7842801999a460fe9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnFreshMailBundle/zipball/b1ec6f863e2c52cc299680c7842801999a460fe9",
+                    "reference": "b1ec6f863e2c52cc299680c7842801999a460fe9",
+                    "shasum": ""
+                },
+                "require": {
+                    "freshmail/rest-api": "dev-master",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-01-10 15:58:17",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\FreshMailBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "Symfony bundle for freshmail api",
+                "homepage": "https://github.com/Bitnoise/BtnFreshMailBundle",
+                "keywords": [
+                    "bitnoise",
+                    "freshmail"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnFreshMailBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnFreshMailBundle/issues"
+                }
+            }
+        },
+        "bitnoise/mailer-bundle": {
+            "dev-master": {
+                "name": "bitnoise/mailer-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/MailerBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMailerBundle.git",
+                    "reference": "9fd80d5ba4dc64d4c27f809cad688dbeec02c467"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMailerBundle/zipball/9fd80d5ba4dc64d4c27f809cad688dbeec02c467",
+                    "reference": "9fd80d5ba4dc64d4c27f809cad688dbeec02c467",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23",
+                    "php": ">=5.3.3"
+                },
+                "time": "2014-01-28 17:04:20",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MailerBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMailerBundle",
+                "keywords": [
+                    "bitnoise",
+                    "mailer"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMailerBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnMailerBundle/issues"
+                }
+            }
+        },
+        "bitnoise/media-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/media-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
+                    "reference": "c800e6a493de5de0ebdd8405b3eba30071b93fa6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/c800e6a493de5de0ebdd8405b3eba30071b93fa6",
+                    "reference": "c800e6a493de5de0ebdd8405b3eba30071b93fa6",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.0.*",
+                    "knplabs/knp-gaufrette-bundle": "~0.1.0",
+                    "liip/imagine-bundle": "~0.21.0"
+                },
+                "time": "2014-08-29 11:29:47",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\MediaBundle\\": "src/Btn/MediaBundle"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMediaBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/media-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/MediaBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
+                    "reference": "6cf4fb0c2bb6991ae5eb39f9e48360f112082f3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/6cf4fb0c2bb6991ae5eb39f9e48360f112082f3f",
+                    "reference": "6cf4fb0c2bb6991ae5eb39f9e48360f112082f3f",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23",
+                    "knplabs/knp-gaufrette-bundle": "0.2.*@dev",
+                    "liip/imagine-bundle": "dev-master#ea3395eb",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-07-30 09:36:56",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MediaBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMediaBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
+                }
+            },
+            "dev-dev": {
+                "name": "bitnoise/media-bundle",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "target-dir": "Btn/MediaBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
+                    "reference": "e42802c07f7fac5910c25ffe4b107fb6fbbbe797"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/e42802c07f7fac5910c25ffe4b107fb6fbbbe797",
+                    "reference": "e42802c07f7fac5910c25ffe4b107fb6fbbbe797",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-gaufrette-bundle": "~0.1",
+                    "liip/imagine-bundle": "~0.21",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-09 11:56:17",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MediaBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMediaBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/dev",
+                    "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
+                }
+            },
+            "dev-sf23-bs3": {
+                "name": "bitnoise/media-bundle",
+                "version": "dev-sf23-bs3",
+                "version_normalized": "dev-sf23-bs3",
+                "target-dir": "Btn/MediaBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
+                    "reference": "a13d1d7c8773112a698d36d981bdff4c8b5681cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/a13d1d7c8773112a698d36d981bdff4c8b5681cf",
+                    "reference": "a13d1d7c8773112a698d36d981bdff4c8b5681cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23-bs3",
+                    "knplabs/knp-gaufrette-bundle": "0.2.*@dev",
+                    "liip/imagine-bundle": "dev-master",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-20 12:11:47",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MediaBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMediaBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/sf23-bs3",
+                    "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
+                }
+            }
+        },
+        "bitnoise/menu-bundle": {
+            "dev-master": {
+                "name": "bitnoise/menu-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/MenuBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMenuBundle.git",
+                    "reference": "dba3076419bd737971ff3ddad05ba510146c43ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMenuBundle/zipball/dba3076419bd737971ff3ddad05ba510146c43ce",
+                    "reference": "dba3076419bd737971ff3ddad05ba510146c43ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-02-28 13:09:24",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MenuBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnMenuBundle add super simple multi level menu managment from yaml",
+                "homepage": "https://github.com/Bitnoise/BtnMenuBundle",
+                "keywords": [
+                    "bitnoise",
+                    "menu",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMenuBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnMenuBundle/issues"
+                }
+            }
+        },
+        "bitnoise/message-bundle": {
+            "dev-master": {
+                "name": "bitnoise/message-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/MessageBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMessageBundle.git",
+                    "reference": "ead524aa48342b599337a34cf620a4cc90965004"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMessageBundle/zipball/ead524aa48342b599337a34cf620a4cc90965004",
+                    "reference": "ead524aa48342b599337a34cf620a4cc90965004",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-02-15 15:13:10",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\MessageBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMessagesBundle",
+                "keywords": [
+                    "bitnoise",
+                    "message"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMessageBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnMessageBundle/issues"
+                }
+            }
+        },
+        "bitnoise/news-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/news-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNewsBundle.git",
+                    "reference": "13c81d17dfa476c726634b1d20eaf031d3c5e9ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNewsBundle/zipball/13c81d17dfa476c726634b1d20eaf031d3c5e9ea",
+                    "reference": "13c81d17dfa476c726634b1d20eaf031d3c5e9ea",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.0.*"
+                },
+                "time": "2014-08-27 09:04:09",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\NewsBundle\\": "src/Btn/NewsBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnNewsBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "news"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNewsBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnNewsBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/news-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/NewsBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNewsBundle.git",
+                    "reference": "f26744fcf49e46d88f41c1fbeb7d2c8a4c59a384"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNewsBundle/zipball/f26744fcf49e46d88f41c1fbeb7d2c8a4c59a384",
+                    "reference": "f26744fcf49e46d88f41c1fbeb7d2c8a4c59a384",
+                    "shasum": ""
+                },
+                "require": {
+                    "gedmo/doctrine-extensions": "*",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-04 10:24:12",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\NewsBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnNewsBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "news"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNewsBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnNewsBundle/issues"
+                }
+            }
+        },
+        "bitnoise/newsletter-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/newsletter-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNewsletterBundle.git",
+                    "reference": "11d35e0e04d53f3fe6e9577179054fd7667f97a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNewsletterBundle/zipball/11d35e0e04d53f3fe6e9577179054fd7667f97a9",
+                    "reference": "11d35e0e04d53f3fe6e9577179054fd7667f97a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.0.*"
+                },
+                "time": "2014-08-26 15:50:52",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\NewsletterBundle\\": "src/Btn/NewsletterBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "Simple newsletter for bitnoise/admin-bundle",
+                "homepage": "https://github.com/Bitnoise/BtnNewsletterBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNewsletterBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnNewsletterBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/newsletter-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/NewsletterBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNewsletterBundle.git",
+                    "reference": "010c7802bb1b97caf5caea31a3a2b73d1d6ab15b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNewsletterBundle/zipball/010c7802bb1b97caf5caea31a3a2b73d1d6ab15b",
+                    "reference": "010c7802bb1b97caf5caea31a3a2b73d1d6ab15b",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": ">=2.2.3,<2.4-dev",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-09 11:57:28",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\NewsletterBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "Simple newsletter for symfony 2.3",
+                "homepage": "https://github.com/Bitnoise/BtnNewsletterBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNewsletterBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnNewsletterBundle/issues"
+                }
+            }
+        },
+        "bitnoise/node-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/node-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNodeBundle.git",
+                    "reference": "16ecfd166bd3f28b4561452c21be358eb62032c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodeBundle/zipball/16ecfd166bd3f28b4561452c21be358eb62032c4",
+                    "reference": "16ecfd166bd3f28b4561452c21be358eb62032c4",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.0.*",
+                    "symfony-cmf/routing-bundle": "~1.2.0"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.1",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "~2.0.0"
+                },
+                "time": "2014-08-28 21:20:48",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\NodeBundle\\": "src/Btn/NodeBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnNodeBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "tree"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNodeBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnNodeBundle/issues"
+                }
+            }
+        },
+        "bitnoise/nodes-bundle": {
+            "dev-master": {
+                "name": "bitnoise/nodes-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/NodesBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNodesBundle.git",
+                    "reference": "df6098f297538d5f731ab3b61c90dc652c782e10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/df6098f297538d5f731ab3b61c90dc652c782e10",
+                    "reference": "df6098f297538d5f731ab3b61c90dc652c782e10",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23",
+                    "bitnoise/media-bundle": "dev-master",
+                    "gedmo/doctrine-extensions": "*",
+                    "knplabs/knp-menu-bundle": "dev-master",
+                    "php": ">=5.3.3",
+                    "symfony-cmf/routing-bundle": "*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-05-23 07:46:54",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\NodesBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnNodesBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "tree"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNodesBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnNodesBundle/issues"
+                }
+            },
+            "dev-sf23-bs3": {
+                "name": "bitnoise/nodes-bundle",
+                "version": "dev-sf23-bs3",
+                "version_normalized": "dev-sf23-bs3",
+                "target-dir": "Btn/NodesBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNodesBundle.git",
+                    "reference": "f795d900136ff52b2ca13a6c3449af36e2c80ec8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodesBundle/zipball/f795d900136ff52b2ca13a6c3449af36e2c80ec8",
+                    "reference": "f795d900136ff52b2ca13a6c3449af36e2c80ec8",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "dev-sf23-bs3",
+                    "bitnoise/breadcrumb-bundle": "dev-master",
+                    "bitnoise/media-bundle": "dev-sf23-bs3",
+                    "gedmo/doctrine-extensions": "*",
+                    "knplabs/knp-menu-bundle": "2.0.*@dev",
+                    "php": ">=5.3.3",
+                    "symfony-cmf/routing-bundle": "*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-07-08 12:49:37",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\NodesBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnNodesBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "tree"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNodesBundle/tree/sf23-bs3",
+                    "issues": "https://github.com/Bitnoise/BtnNodesBundle/issues"
+                }
+            }
+        },
+        "bitnoise/page-bundle": {
+            "2.0.x-dev": {
+                "name": "bitnoise/page-bundle",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnPageBundle.git",
+                    "reference": "523002f5d35424847cef3c5d68efba4178742807"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/523002f5d35424847cef3c5d68efba4178742807",
+                    "reference": "523002f5d35424847cef3c5d68efba4178742807",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.0.*",
+                    "gedmo/doctrine-extensions": "*"
+                },
+                "time": "2014-08-28 10:53:50",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\PageBundle\\": "src/Btn/PageBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnPageBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "page"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnPageBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnPageBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bitnoise/page-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/PageBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnPageBundle.git",
+                    "reference": "e7bc479adbfa101fd5c83f75c112b5b926329bfe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/e7bc479adbfa101fd5c83f75c112b5b926329bfe",
+                    "reference": "e7bc479adbfa101fd5c83f75c112b5b926329bfe",
+                    "shasum": ""
+                },
+                "require": {
+                    "egeloen/ckeditor-bundle": "~2.1.0",
+                    "gedmo/doctrine-extensions": "*",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-07-31 13:08:56",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\PageBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnPageBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "page"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnPageBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnPageBundle/issues"
+                }
+            },
+            "dev-sf23-bs3": {
+                "name": "bitnoise/page-bundle",
+                "version": "dev-sf23-bs3",
+                "version_normalized": "dev-sf23-bs3",
+                "target-dir": "Btn/PageBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnPageBundle.git",
+                    "reference": "17c84618461064ce8715df8620e85bd059cfc170"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/17c84618461064ce8715df8620e85bd059cfc170",
+                    "reference": "17c84618461064ce8715df8620e85bd059cfc170",
+                    "shasum": ""
+                },
+                "require": {
+                    "egeloen/ckeditor-bundle": "~2.1.0",
+                    "gedmo/doctrine-extensions": "*",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-08-04 10:16:03",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\PageBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnPageBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "page"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnPageBundle/tree/sf23-bs3",
+                    "issues": "https://github.com/Bitnoise/BtnPageBundle/issues"
+                }
+            }
+        },
+        "bitnoise/settings-bundle": {
+            "dev-master": {
+                "name": "bitnoise/settings-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/SettingsBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnSettingsBundle.git",
+                    "reference": "d934cfe406ff5ece25d2cf3faaace010e16ca988"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnSettingsBundle/zipball/d934cfe406ff5ece25d2cf3faaace010e16ca988",
+                    "reference": "d934cfe406ff5ece25d2cf3faaace010e16ca988",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-07-31 07:50:16",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\SettingsBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnSettingsBundle",
+                "keywords": [
+                    "bitnoise",
+                    "settings",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnSettingsBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnSettingsBundle/issues"
+                }
+            }
+        },
+        "bitnoise/user-bundle": {
+            "dev-master": {
+                "name": "bitnoise/user-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Btn/UserBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnUserBundle.git",
+                    "reference": "3645a3ac0dba4998ea3e51eab95fad721da99ccf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnUserBundle/zipball/3645a3ac0dba4998ea3e51eab95fad721da99ccf",
+                    "reference": "3645a3ac0dba4998ea3e51eab95fad721da99ccf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-04-04 11:03:07",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Btn\\UserBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnUserBundle",
+                "keywords": [
+                    "bitnoise",
+                    "user",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnUserBundle/tree/master",
+                    "issues": "https://github.com/Bitnoise/BtnUserBundle/issues"
+                }
+            }
+        }
+    }
+}
