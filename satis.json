@@ -87,6 +87,10 @@
         {
             "type": "vcs",
             "url":  "git@github.com:Bitnoise/BtnComponentBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Bitnoise/BtnTagBundle.git"
         }
     ],
     "require-all": true,
