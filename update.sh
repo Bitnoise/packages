@@ -1,7 +1,13 @@
 #!/bin/sh
 
+if [[ "`uname`" == 'Darwin' ]] ; then
+    DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+else
+    _script="$(readlink -f ${BASH_SOURCE[0]})"
+    DIR="$(dirname $_script)"
+fi
+
 GIT="$(which git)"
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 GITDIR="$DIR/.git"
 
 # pull latest changes from repo
