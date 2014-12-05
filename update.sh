@@ -11,7 +11,7 @@ GIT="$(which git)"
 GITDIR="$DIR/.git"
 
 # pull latest changes from repo
-$GIT --git-dir=$GITDIR --work-tree=$DIR pull
+$GIT --git-dir=$GITDIR pull
 
 # update packages
 $DIR/vendor/bin/satis build $DIR/satis.json $DIR
