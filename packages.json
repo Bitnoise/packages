@@ -1,7 +1,5 @@
 {
-    "packages": [
-
-    ],
+    "packages": [],
     "includes": {
         "include/all$d14483698cec7e611791629d332c6efd65116e9f.json": {
             "sha1": "d14483698cec7e611791629d332c6efd65116e9f"
