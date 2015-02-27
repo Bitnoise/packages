@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnAdminBundle.git",
-                    "reference": "9c3f32a2e412db87b4e9d821b7e93c114aced6b4"
+                    "reference": "1d0353b3cfb17c7475b1e0dafa1d00ab7a2731b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/9c3f32a2e412db87b4e9d821b7e93c114aced6b4",
-                    "reference": "9c3f32a2e412db87b4e9d821b7e93c114aced6b4",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/1d0353b3cfb17c7475b1e0dafa1d00ab7a2731b1",
+                    "reference": "1d0353b3cfb17c7475b1e0dafa1d00ab7a2731b1",
                     "shasum": ""
                 },
                 "require": {
@@ -32,7 +32,7 @@
                     "sebastian/phpcpd": "~2.0.0",
                     "squizlabs/php_codesniffer": "~2.0.0"
                 },
-                "time": "2015-02-26 15:06:33",
+                "time": "2015-02-27 08:03:27",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -62,6 +62,70 @@
                 ],
                 "support": {
                     "source": "https://github.com/Bitnoise/BtnAdminBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnAdminBundle/issues"
+                }
+            },
+            "2.1.x-dev": {
+                "name": "bitnoise/admin-bundle",
+                "version": "2.1.x-dev",
+                "version_normalized": "2.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnAdminBundle.git",
+                    "reference": "535ff3880b77f310b91f1e1db4eaf0bef8ca48d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/535ff3880b77f310b91f1e1db4eaf0bef8ca48d6",
+                    "reference": "535ff3880b77f310b91f1e1db4eaf0bef8ca48d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/base-bundle": "2.1.*",
+                    "doctrine/orm": "~2.2,>=2.2.3",
+                    "egeloen/ckeditor-bundle": "~2.4.0",
+                    "friendsofsymfony/user-bundle": "2.0.*@dev",
+                    "knplabs/knp-menu-bundle": "~2.0.0",
+                    "knplabs/knp-paginator-bundle": "~2.4.0",
+                    "stof/doctrine-extensions-bundle": "~1.1.0"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.1",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "~2.0.0"
+                },
+                "time": "2015-02-27 08:18:57",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.1": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\AdminBundle\\": "src/Btn/AdminBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnAdminBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnAdminBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnAdminBundle/tree/2.1",
                     "issues": "https://github.com/Bitnoise/BtnAdminBundle/issues"
                 }
             },
@@ -125,17 +189,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
-                    "reference": "4be30ace616bd8641aa25ee5e2a7e9c93152d5c6"
+                    "reference": "9cb9418728dd5bd0a9805cd8bb69d7b47822e4af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/4be30ace616bd8641aa25ee5e2a7e9c93152d5c6",
-                    "reference": "4be30ace616bd8641aa25ee5e2a7e9c93152d5c6",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/9cb9418728dd5bd0a9805cd8bb69d7b47822e4af",
+                    "reference": "9cb9418728dd5bd0a9805cd8bb69d7b47822e4af",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
-                    "symfony/symfony": "~2.3"
+                    "symfony/symfony": "2.3.*"
                 },
                 "require-dev": {
                     "asm89/twig-lint": "~1.0.0",
@@ -147,7 +211,7 @@
                 "suggest": {
                     "raulfraile/ladybug-bundle": "~1.0.0"
                 },
-                "time": "2015-02-27 00:11:01",
+                "time": "2015-02-27 08:11:27",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -177,6 +241,68 @@
                 ],
                 "support": {
                     "source": "https://github.com/Bitnoise/BtnBaseBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnBaseBundle/issues"
+                }
+            },
+            "2.1.x-dev": {
+                "name": "bitnoise/base-bundle",
+                "version": "2.1.x-dev",
+                "version_normalized": "2.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnBaseBundle.git",
+                    "reference": "92d1e1248d3d0b8447a823595773506fa9381f65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnBaseBundle/zipball/92d1e1248d3d0b8447a823595773506fa9381f65",
+                    "reference": "92d1e1248d3d0b8447a823595773506fa9381f65",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.7.*"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.0",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "~2.0.0"
+                },
+                "suggest": {
+                    "raulfraile/ladybug-bundle": "~1.0.0"
+                },
+                "time": "2015-02-27 08:16:46",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.0": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\BaseBundle\\": "src/Btn/BaseBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnBaseBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnBaseBundle",
+                "keywords": [
+                    "bitnoise",
+                    "utilities"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnBaseBundle/tree/2.1",
                     "issues": "https://github.com/Bitnoise/BtnBaseBundle/issues"
                 }
             },
@@ -402,12 +528,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnComponentBundle.git",
-                    "reference": "973495a88b0c0e8017d6f632736a398837773250"
+                    "reference": "f857b9e66416467e771178f7f186e3252fdaf4e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnComponentBundle/zipball/973495a88b0c0e8017d6f632736a398837773250",
-                    "reference": "973495a88b0c0e8017d6f632736a398837773250",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnComponentBundle/zipball/f857b9e66416467e771178f7f186e3252fdaf4e7",
+                    "reference": "f857b9e66416467e771178f7f186e3252fdaf4e7",
                     "shasum": ""
                 },
                 "require": {
@@ -420,7 +546,7 @@
                     "sebastian/phpcpd": "~2.0.0",
                     "squizlabs/php_codesniffer": "dev-master"
                 },
-                "time": "2015-02-26 11:43:26",
+                "time": "2015-02-27 08:21:17",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -449,6 +575,63 @@
                 ],
                 "support": {
                     "source": "https://github.com/Bitnoise/BtnComponentBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnComponentBundle/issues"
+                }
+            },
+            "2.1.x-dev": {
+                "name": "bitnoise/component-bundle",
+                "version": "2.1.x-dev",
+                "version_normalized": "2.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnComponentBundle.git",
+                    "reference": "569042f18024b651ea87afe1d12d99e99cf7f5ad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnComponentBundle/zipball/569042f18024b651ea87afe1d12d99e99cf7f5ad",
+                    "reference": "569042f18024b651ea87afe1d12d99e99cf7f5ad",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.1.*"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.1",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "dev-master"
+                },
+                "time": "2015-02-27 08:23:21",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.1": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\ComponentBundle\\": "src/Btn/ComponentBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "The BtnComponentBundle makes us (bitnoi.se team) happy",
+                "homepage": "https://github.com/Bitnoise/BtnComponentBundle",
+                "keywords": [
+                    "bitnoise"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnComponentBundle/tree/2.1",
                     "issues": "https://github.com/Bitnoise/BtnComponentBundle/issues"
                 }
             }
@@ -709,6 +892,67 @@
                 ],
                 "support": {
                     "source": "https://github.com/Bitnoise/BtnErrbitBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnErrbitBundle/issues"
+                }
+            },
+            "2.1.x-dev": {
+                "name": "bitnoise/errbit-php-bundle",
+                "version": "2.1.x-dev",
+                "version_normalized": "2.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnErrbitBundle.git",
+                    "reference": "0c82437185b7f3c3bfe943851d5dc2eaf9bb4ad4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnErrbitBundle/zipball/0c82437185b7f3c3bfe943851d5dc2eaf9bb4ad4",
+                    "reference": "0c82437185b7f3c3bfe943851d5dc2eaf9bb4ad4",
+                    "shasum": ""
+                },
+                "require": {
+                    "emgiezet/errbit-php": "*",
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.*"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.1",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "~2.0.0"
+                },
+                "time": "2015-02-27 08:25:46",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.1": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\ErrbitBundle\\": "src/Btn/ErrbitBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise | Lukasz Roth",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "description": "errbit-php symfony2 bundle",
+                "homepage": "https://github.com/bitnoise/BtnErrbitBundle",
+                "keywords": [
+                    "bitnoise",
+                    "bug",
+                    "errbit"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnErrbitBundle/tree/2.1",
                     "issues": "https://github.com/Bitnoise/BtnErrbitBundle/issues"
                 }
             },
@@ -1023,12 +1267,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
-                    "reference": "d3adfb3240d3cd50fb1c5aefd74b1fc1b3586d8c"
+                    "reference": "9da09913350b3f786dd2310dd3b8861e70389f75"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/d3adfb3240d3cd50fb1c5aefd74b1fc1b3586d8c",
-                    "reference": "d3adfb3240d3cd50fb1c5aefd74b1fc1b3586d8c",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/9da09913350b3f786dd2310dd3b8861e70389f75",
+                    "reference": "9da09913350b3f786dd2310dd3b8861e70389f75",
                     "shasum": ""
                 },
                 "require": {
@@ -1043,7 +1287,7 @@
                     "sebastian/phpcpd": "~2.0.0",
                     "squizlabs/php_codesniffer": "~2.0.0"
                 },
-                "time": "2015-02-26 11:38:23",
+                "time": "2015-02-27 08:26:16",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -1073,6 +1317,66 @@
                 ],
                 "support": {
                     "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
+                }
+            },
+            "2.1.x-dev": {
+                "name": "bitnoise/media-bundle",
+                "version": "2.1.x-dev",
+                "version_normalized": "2.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
+                    "reference": "10ff90d2d4561f011cfd0e3c2b3c5097c963e9bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/10ff90d2d4561f011cfd0e3c2b3c5097c963e9bf",
+                    "reference": "10ff90d2d4561f011cfd0e3c2b3c5097c963e9bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.1.*",
+                    "knplabs/knp-gaufrette-bundle": "~0.1.0",
+                    "liip/imagine-bundle": "~1.2.0"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.1",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "~2.0.0"
+                },
+                "time": "2015-02-27 08:27:28",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.1": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\MediaBundle\\": "src/Btn/MediaBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnMediaBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "media"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnMediaBundle/tree/2.1",
                     "issues": "https://github.com/Bitnoise/BtnMediaBundle/issues"
                 }
             },
@@ -1506,12 +1810,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnNodeBundle.git",
-                    "reference": "75378ee913c872b05be59298ee22fcd8e79337d7"
+                    "reference": "8f4ba75e102bcf6511faea39d4407539968d2964"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnNodeBundle/zipball/75378ee913c872b05be59298ee22fcd8e79337d7",
-                    "reference": "75378ee913c872b05be59298ee22fcd8e79337d7",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodeBundle/zipball/8f4ba75e102bcf6511faea39d4407539968d2964",
+                    "reference": "8f4ba75e102bcf6511faea39d4407539968d2964",
                     "shasum": ""
                 },
                 "require": {
@@ -1525,7 +1829,7 @@
                     "sebastian/phpcpd": "~2.0.0",
                     "squizlabs/php_codesniffer": "~2.0.0"
                 },
-                "time": "2015-02-26 11:40:35",
+                "time": "2015-02-27 08:28:13",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -1555,6 +1859,65 @@
                 ],
                 "support": {
                     "source": "https://github.com/Bitnoise/BtnNodeBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnNodeBundle/issues"
+                }
+            },
+            "2.1.x-dev": {
+                "name": "bitnoise/node-bundle",
+                "version": "2.1.x-dev",
+                "version_normalized": "2.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnNodeBundle.git",
+                    "reference": "6321d5cb40b63da1ade3e01506bfdd268dc3109e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnNodeBundle/zipball/6321d5cb40b63da1ade3e01506bfdd268dc3109e",
+                    "reference": "6321d5cb40b63da1ade3e01506bfdd268dc3109e",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.1.*",
+                    "symfony-cmf/routing-bundle": "~1.2.0"
+                },
+                "require-dev": {
+                    "asm89/twig-lint": "~1.0.1",
+                    "fabpot/php-cs-fixer": "~0.5.0",
+                    "phpmd/phpmd": "~2.0.0",
+                    "sebastian/phpcpd": "~2.0.0",
+                    "squizlabs/php_codesniffer": "~2.0.0"
+                },
+                "time": "2015-02-27 08:28:58",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.1": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\NodeBundle\\": "src/Btn/NodeBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnNodeBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "tree"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnNodeBundle/tree/2.1",
                     "issues": "https://github.com/Bitnoise/BtnNodeBundle/issues"
                 }
             }
@@ -1676,19 +2039,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnPageBundle.git",
-                    "reference": "600c8ee17067d16c57eff643bb5aed26db240d0c"
+                    "reference": "81bf455038b1933a55b6000dbd6b50fe36336edf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/600c8ee17067d16c57eff643bb5aed26db240d0c",
-                    "reference": "600c8ee17067d16c57eff643bb5aed26db240d0c",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/81bf455038b1933a55b6000dbd6b50fe36336edf",
+                    "reference": "81bf455038b1933a55b6000dbd6b50fe36336edf",
                     "shasum": ""
                 },
                 "require": {
                     "bitnoise/admin-bundle": "2.0.*",
                     "gedmo/doctrine-extensions": "*"
                 },
-                "time": "2015-02-25 15:26:14",
+                "time": "2015-02-27 08:29:38",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -1718,6 +2081,58 @@
                 ],
                 "support": {
                     "source": "https://github.com/Bitnoise/BtnPageBundle/tree/2.0",
+                    "issues": "https://github.com/Bitnoise/BtnPageBundle/issues"
+                }
+            },
+            "2.1.x-dev": {
+                "name": "bitnoise/page-bundle",
+                "version": "2.1.x-dev",
+                "version_normalized": "2.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Bitnoise/BtnPageBundle.git",
+                    "reference": "9c047fae8234e0db2db14a20d95644b956740a41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnPageBundle/zipball/9c047fae8234e0db2db14a20d95644b956740a41",
+                    "reference": "9c047fae8234e0db2db14a20d95644b956740a41",
+                    "shasum": ""
+                },
+                "require": {
+                    "bitnoise/admin-bundle": "2.1.*",
+                    "gedmo/doctrine-extensions": "*"
+                },
+                "time": "2015-02-27 08:30:18",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-2.1": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Btn\\PageBundle\\": "src/Btn/PageBundle/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bitnoise Team",
+                        "homepage": "http://www.bitnoi.se/",
+                        "email": "labs@bitnoi.se"
+                    }
+                ],
+                "homepage": "https://github.com/Bitnoise/BtnPageBundle",
+                "keywords": [
+                    "bitnoise",
+                    "cms",
+                    "page"
+                ],
+                "support": {
+                    "source": "https://github.com/Bitnoise/BtnPageBundle/tree/2.1",
                     "issues": "https://github.com/Bitnoise/BtnPageBundle/issues"
                 }
             },
