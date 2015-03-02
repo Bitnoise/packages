@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnAdminBundle.git",
-                    "reference": "38b5153f25c994e3cbb730b92db19d7db97f52ec"
+                    "reference": "650d52cbf9c07aaac9fe96a1360a3c448c6c44cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/38b5153f25c994e3cbb730b92db19d7db97f52ec",
-                    "reference": "38b5153f25c994e3cbb730b92db19d7db97f52ec",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/650d52cbf9c07aaac9fe96a1360a3c448c6c44cc",
+                    "reference": "650d52cbf9c07aaac9fe96a1360a3c448c6c44cc",
                     "shasum": ""
                 },
                 "require": {
@@ -32,7 +32,7 @@
                     "sebastian/phpcpd": "~2.0.0",
                     "squizlabs/php_codesniffer": "~2.0.0"
                 },
-                "time": "2015-03-02 08:36:25",
+                "time": "2015-02-28 07:59:41",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -72,21 +72,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnAdminBundle.git",
-                    "reference": "392e54830c15d67cd9b968cf53984a9da3c58fd7"
+                    "reference": "b2905e8f6aa81e58b814da852f86292c6dd4f035"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/392e54830c15d67cd9b968cf53984a9da3c58fd7",
-                    "reference": "392e54830c15d67cd9b968cf53984a9da3c58fd7",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnAdminBundle/zipball/b2905e8f6aa81e58b814da852f86292c6dd4f035",
+                    "reference": "b2905e8f6aa81e58b814da852f86292c6dd4f035",
                     "shasum": ""
                 },
                 "require": {
                     "bitnoise/base-bundle": "2.1.*",
                     "doctrine/orm": "~2.2,>=2.2.3",
-                    "egeloen/ckeditor-bundle": "dev-fix/asset-helper",
-                    "friendsofsymfony/user-bundle": "dev-sf26fix",
+                    "egeloen/ckeditor-bundle": "dev-master",
+                    "friendsofsymfony/user-bundle": "2.0.*@dev",
                     "knplabs/knp-menu-bundle": "~2.0.0",
-                    "knplabs/knp-paginator-bundle": "2.4.x-dev",
+                    "knplabs/knp-paginator-bundle": "~2.4.0",
                     "stof/doctrine-extensions-bundle": "~1.1.0"
                 },
                 "require-dev": {
@@ -96,7 +96,7 @@
                     "sebastian/phpcpd": "~2.0.0",
                     "squizlabs/php_codesniffer": "~2.0.0"
                 },
-                "time": "2015-03-02 08:36:39",
+                "time": "2015-02-28 17:59:25",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
@@ -1327,18 +1327,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Bitnoise/BtnMediaBundle.git",
-                    "reference": "68f9a4189c62c35035043d02ce2e8597191a947e"
+                    "reference": "3a90be58663b3a5f7bed2018c9931aaab71d0d66"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/68f9a4189c62c35035043d02ce2e8597191a947e",
-                    "reference": "68f9a4189c62c35035043d02ce2e8597191a947e",
+                    "url": "https://api.github.com/repos/Bitnoise/BtnMediaBundle/zipball/3a90be58663b3a5f7bed2018c9931aaab71d0d66",
+                    "reference": "3a90be58663b3a5f7bed2018c9931aaab71d0d66",
                     "shasum": ""
                 },
                 "require": {
                     "bitnoise/admin-bundle": "2.1.*",
                     "knplabs/knp-gaufrette-bundle": "~0.1.0",
-                    "liip/imagine-bundle": "dev-sf26fix"
+                    "liip/imagine-bundle": "~1.2.0"
                 },
                 "require-dev": {
                     "asm89/twig-lint": "~1.0.1",
@@ -1347,7 +1347,7 @@
                     "sebastian/phpcpd": "~2.0.0",
                     "squizlabs/php_codesniffer": "~2.0.0"
                 },
-                "time": "2015-02-28 22:20:20",
+                "time": "2015-02-27 14:49:13",
                 "type": "symfony-bundle",
                 "extra": {
                     "branch-alias": {
