@@ -95,12 +95,7 @@
         {
             "type": "vcs",
             "url":  "git@github.com:Bitnoise/BtnDomain.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:Bitnoise/BtnDomainBundle.git"
         }
-
 
     ],
     "require-all": true,
